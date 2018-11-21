@@ -231,7 +231,8 @@ public class ChromedriverUpdater {
     }
 
     /**
-     * Распаковывает zip фрхивы.
+     * Распаковывает zip архивы.
+     * <br>Большая часть кода взята отсюда https://stackoverflow.com/questions/23151503
      * @param zipFile путь к файлу для распаковки (например, drivers/chromedriver_mac64.zip).
      * @param outputFolder путь к директории для извлечения (например, drivers).
      * @return boolean флаг успешности.
